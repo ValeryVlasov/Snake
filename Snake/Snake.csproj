@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\FoodApple.png" />
+    <None Remove="Assets\snake.png" />
+    <None Remove="Assets\SnakeBody.png" />
+    <None Remove="Assets\SnakeHead.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\FoodApple.png" />
+    <Resource Include="Assets\Snake.png" />
+    <Resource Include="Assets\SnakeBody.png" />
+    <Resource Include="Assets\SnakeHead.png" />
+  </ItemGroup>
+
+</Project>
