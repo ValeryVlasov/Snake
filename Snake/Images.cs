@@ -6,11 +6,11 @@ namespace Snake
 {
     public static class Images
     {
-        //public readonly static ImageSource Empty = LoadImage("Empty.png");
-        //public readonly static ImageSource Empty = LoadImage("Empty.png");
-        public readonly static ImageSource SnakeHead = LoadImage("SnakeHead.png");
-        public readonly static ImageSource SnakeBody = LoadImage("SnakeBody.png");
-        public readonly static ImageSource SnakeLogo = LoadImage("Snake.png");
+        public readonly static ImageSource Empty = LoadImage("Empty.png");
+        public readonly static ImageSource Head = LoadImage("Head.png");
+        public readonly static ImageSource Body = LoadImage("Body.png");
+        public readonly static ImageSource DeadHead = LoadImage("DeadHead.png");
+        public readonly static ImageSource DeadBody = LoadImage("DeadBody.png");
         public readonly static ImageSource Food = LoadImage("FoodApple.png");
         private static ImageSource LoadImage(string fileName)
         {

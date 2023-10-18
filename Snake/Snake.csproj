@@ -8,17 +8,30 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Assets\Body.png" />
+    <None Remove="Assets\DeadBody.png" />
+    <None Remove="Assets\DeadHead.png" />
+    <None Remove="Assets\DroidSansMono.ttf" />
+    <None Remove="Assets\Empty.png" />
+    <None Remove="Assets\Food.png" />
     <None Remove="Assets\FoodApple.png" />
+    <None Remove="Assets\Head.png" />
+    <None Remove="Assets\icon.ico" />
     <None Remove="Assets\snake.png" />
     <None Remove="Assets\SnakeBody.png" />
     <None Remove="Assets\SnakeHead.png" />
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="Assets\Body.png" />
+    <Resource Include="Assets\DeadBody.png" />
+    <Resource Include="Assets\DeadHead.png" />
+    <Resource Include="Assets\DroidSansMono.ttf" />
+    <Resource Include="Assets\Empty.png" />
+    <Resource Include="Assets\Food.png" />
     <Resource Include="Assets\FoodApple.png" />
-    <Resource Include="Assets\Snake.png" />
-    <Resource Include="Assets\SnakeBody.png" />
-    <Resource Include="Assets\SnakeHead.png" />
+    <Resource Include="Assets\Head.png" />
+    <Resource Include="Assets\icon.ico" />
   </ItemGroup>
 
 </Project>
